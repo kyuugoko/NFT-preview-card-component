@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(217deg, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+img, svg {
+  height: auto;
+  max-width: 100%;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+p {
+  font-size: 18px;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+.avatar__container p span:hover, .nft__title:hover {
+  color: hsl(178deg, 100%, 50%);
+  cursor: pointer;
+}
+
+.avatar__container p span, .nft__title, .nft__preview, .img__container svg, .img__container {
+  transition: all ease-in-out 0.4s;
+}
+
+.nft__preview, .img__container svg, .img__container {
+  border-radius: 12px;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 100vw;
+}
+
+.card {
+  background-color: hsl(216deg, 50%, 16%);
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  max-width: 360px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.img__container {
+  position: relative;
+}
+.img__container:hover {
+  background: hsl(178deg, 100%, 50%);
+}
+.img__container:hover svg {
+  cursor: pointer;
+  opacity: 100%;
+}
+.img__container svg {
+  background: hsla(178deg, 100%, 50%, 0.03);
+  left: 43%;
+  opacity: 0%;
+  position: absolute;
+  top: 41%;
+  z-index: 0;
+}
+
+.nft__preview {
+  display: block;
+  z-index: 1;
+}
+.nft__preview:hover {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.nft__title {
+  font-weight: 600;
+}
+.nft__text,
+.nft__footer {
+  color: hsl(215deg, 51%, 70%);
+}
+
+.nft__footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date__container,
+.value__container {
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.value__container {
+  color: hsl(178deg, 100%, 50%);
+}
+
+.date__container {
+  color: hsl(215deg, 51%, 70%);
+}
+
+.line {
+  height: 1px;
+  background-color: hsl(215deg, 51%, 70%);
+}
+
+.avatar__container {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  padding-top: 23px;
+}
+.avatar__container p {
+  color: hsl(215deg, 51%, 70%);
+  margin: 0;
+}
+.avatar__container p span {
+  color: #fff;
+}
+.avatar__img {
+  width: 2.25rem;
+  border: solid 1px #fff;
+  border-radius: 50%;
+}
+
+.attribution {
+  color: hsl(215deg, 51%, 70%);
+}
+.attribution a {
+  color: hsl(178deg, 100%, 50%);
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,12 @@
+%hover-state {
+    color: $primary-cyan;
+    cursor: pointer;
+}
+
+%transition {
+    transition: all ease-in-out 0.4s;
+}
+
+%br-12 {
+    border-radius: 12px;
+}
